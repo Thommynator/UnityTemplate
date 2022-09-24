@@ -10,11 +10,12 @@ The workflows will build the project for:
 
 ## Setup Secrets
 Go to `Github` > `<Your repository>` > `Settings` > `Secrets` > `Actions` and add the following **repository secrets**:
-  * `UNITY_EMAIL`: The email address of your unity account 
-  * `UNITY_PASSWORD`: The password of your unity account
-  * `UNITY_LICENSE`: The content of the Unity license file (`*.ulf`), see below 
-  * `BUTLER_CREDENTIALS`: The API key of the [itch.io](https://itch.io/) CLI "Butler"
-  * `PROJECT_NAME`: The name of the itch.io project page 
+* `UNITY_EMAIL`: The email address of your unity account 
+* `UNITY_PASSWORD`: The password of your unity account
+* `UNITY_LICENSE`: The content of the Unity license file (`*.ulf`), see below 
+* `ITCH_USERNAME`: The username of your [itch.io](https://itch.io/) account
+* `PROJECT_NAME`: The name of the [itch.io](https://itch.io/) project page 
+* `BUTLER_CREDENTIALS`: The API key of the [itch.io](https://itch.io/) CLI "Butler"
 
 ## Unity License
 The `UNITY_LICENSE` secret requires the content of a Unity license file.

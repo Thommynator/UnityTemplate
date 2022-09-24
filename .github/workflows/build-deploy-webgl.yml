@@ -86,6 +86,6 @@ jobs:
           BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
           CHANNEL: html5
           ITCH_GAME: ${{ secrets.PROJECT_NAME }}
-          ITCH_USER: Exenter
+          ITCH_USER: ${{ secrets.ITCH_USERNAME }}
           PACKAGE: build/WebGL
           VERSION: ${{ steps.unityBuild.outputs.buildVersion }}
