@@ -25,8 +25,8 @@ The `UNITY_LICENSE` secret requires the content of a Unity license file.
 1. Add the full content of the license file as `UNITY_LICENSE` secret
 
 ## Versioning
-Every change on the master branch will trigger the workflows. 
-Each build will receive its unique semantic version, 1.2.3.
-The patch version (3rd digit) is increased automatically.
-Use a Git tag (attached to the commit) to change the major or minor version.
-The itch.io CLI "Butler" will automatically update the corresponding versions on the website.
+* Every change on the master branch will trigger the workflows. 
+* Each build will receive its unique semantic version, 1.2.3.
+* The patch version (3rd digit) is increased automatically.
+* Use a Git tag (attached to the commit) to change the major or minor version.
+* The itch.io CLI "Butler" will automatically update the corresponding versions on the website.
