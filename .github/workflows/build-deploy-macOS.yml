@@ -50,7 +50,7 @@ jobs:
         with:
           versioning: Semantic
           targetPlatform: StandaloneOSX   
-          # unityVersion: 2022.1.16f1
+          unityVersion: 2022.1.16f1
           buildName: ${{ secrets.PROJECT_NAME }}
           buildsPath: build
           
@@ -86,6 +86,6 @@ jobs:
           BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
           CHANNEL: mac
           ITCH_GAME: ${{ secrets.PROJECT_NAME }}
-          ITCH_USER: ${{ secrets.ITCH_USERNAME }}
+          ITCH_USER: Exenter
           PACKAGE: build/StandaloneOSX
           VERSION: ${{ steps.unityBuild.outputs.buildVersion }}

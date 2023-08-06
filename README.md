@@ -15,7 +15,7 @@ Go to `Github` > `<Your repository>` > `Settings` > `Secrets` > `Actions` and ad
 * `UNITY_LICENSE`: The content of the Unity license file (`*.ulf`), see below 
 * `ITCH_USERNAME`: The username of your [itch.io](https://itch.io/) account
 * `PROJECT_NAME`: The name of the [itch.io](https://itch.io/) project page 
-* `BUTLER_CREDENTIALS`: The API key of the [itch.io](https://itch.io/) CLI "Butler"
+* `BUTLER_CREDENTIALS`: The [itch.io API key](https://itch.io/user/settings/api-keys) for the "Butler" CLI
 
 ## Unity License
 The `UNITY_LICENSE` secret requires the content of a Unity license file.
@@ -26,6 +26,7 @@ The `UNITY_LICENSE` secret requires the content of a Unity license file.
 1. Add the full content of the license file as `UNITY_LICENSE` secret
 
 ## Versioning
+<<<<<<< HEAD
 * Every change on the master branch will trigger the workflows. 
 * Each build will receive its unique semantic version, 1.2.3.
 * The patch version (3rd digit) is increased automatically.
@@ -47,3 +48,10 @@ Unable to parse Build/<project-name>.framework.js.br! This can happen if build c
 * Go to Publish Settings
 * Compression Format: Disabled
 
+=======
+* Every change on the master branch will trigger the workflows 
+* Each build will receive its unique semantic version, 1.2.3
+* The patch version (3rd digit) is increased automatically
+* Use a Git tag (attached to the commit) to change the major or minor version
+* The itch.io CLI "Butler" will automatically update the corresponding versions on the website
+>>>>>>> bf3b61d3fbfedadd2c8a911e4651e0a0211372b7
